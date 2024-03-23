@@ -1,0 +1,42 @@
+body{
+    margin: 0em;
+    font-family: "Noto Sans Khojki", sans-serif;
+}
+
+h1,h2,h3,h4{
+    font-family: "Grenze", serif;
+    font-weight: 400;
+}
+
+.cover{
+    height: 500px;
+    background-image: url(./img/rsz_carl-campbell-6miwe_qsdv8-unsplash.png);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+}
+
+.navbar-brand{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.cover-small{
+    height: 250px;
+    background-blend-mode: normal;
+
+}
+
+.card{
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.6);
+}
+
+.card-title{
+    min-height: 3rem;
+}
+.card-text{
+    min-height: 10rem;
+}
